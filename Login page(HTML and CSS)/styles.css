@@ -1,0 +1,73 @@
+body {
+	background-image: url("just.jpg");
+	background-size: contain;
+}
+
+.main {
+	height: 500px;
+	width: 50%;
+
+	display: flex;
+	margin: auto;
+}
+
+.cont {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	width: 50%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	padding-left: 50px;
+	background-color: rgba(44, 16, 16, 0.719);
+
+	border-color: crimson;
+	border: 1px solid;
+
+	box-shadow: 5px 10px 8px 10px rgb(29, 25, 25);
+}
+.usname {
+	margin: 25px;
+}
+.pass {
+	margin: 25px;
+}
+.btn {
+	margin: 25px;
+}
+
+button {
+	border-radius: 30%;
+	cursor: pointer;
+	outline: none;
+	width: 85px;
+	height: 30px;
+	color: teal;
+	border-radius: 15px 50px;
+
+	border-color: crimson;
+	background-color: transparent;
+	margin-left: 60px;
+}
+
+input {
+	padding-left: 10px;
+	border-radius: 15px 50px;
+	height: 25px;
+	width: 200px;
+	border-color: crimson;
+	background-color: transparent;
+	color: wheat;
+	outline: none;
+}
+.log {
+	margin-left: 25px;
+	color: wheat;
+	font-family: cursive;
+}
+.foll {
+	color: wheat;
+	margin-left: 30px;
+}

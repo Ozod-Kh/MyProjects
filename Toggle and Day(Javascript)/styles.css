@@ -1,0 +1,39 @@
+.extra {
+	font-size: 2rem;
+	background-color: aquamarine;
+	text-align: center;
+}
+
+.btn {
+	border-radius: 30px;
+	color: azure;
+	background-color: rgb(17, 17, 122);
+	padding: 10px;
+	font-size: 1rem;
+	outline: none;
+	width: 100px;
+}
+
+body {
+	background-color: cornsilk;
+}
+
+#sar {
+	font-size: 24px;
+}
+
+.cont {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 400px;
+	height: 400px;
+	transform: translate(-50%, -50%);
+	background-color: rgb(172, 105, 38);
+}
+
+.btn1 {
+	border-radius: 25px;
+	outline: none;
+	width: 100px;
+}

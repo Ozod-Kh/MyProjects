@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Registration</title>
+     <link rel="stylesheet" href="regForm.css">
+ </head>
+
+ <body>
+
+     <div>
+         <form action="">
+             <h2>Registration</h2>
+
+             <!--Names-->
+
+             <label for="fname">First name</label>
+             <input type="text" id="fname" placeholder="Your name">
+             <p id="errname"></p>
+             <label for="lname">Last name</label>
+             <input type="text" id="lname" placeholder="Your last name">
+             <p id="errlname"></p>
+
+             <!--selection for country-->
+
+             <label for="country">Your country</label>
+             <select id="country">
+                 <option value="selected">--Choose your country--</option>
+                 <option value="Australia">Australia</option>
+                 <option value="Albania">Albania</option>
+                 <option value="Belgium">Belgium</option>
+                 <option value="Bolivia">Bolivia</option>
+                 <option value="Canada">Canada</option>
+                 <option value="Czechia">Czechia</option>
+                 <option value="Denmark">Denmark</option>
+                 <option value="Estonia">Estonia</option>
+                 <option value="UK">UK</option>
+                 <option value="USA">USA</option>
+                 <option value="Uzbekistan">Uzbekistan</option>
+                 
+             </select>
+             <p id="errcount"></p>
+
+             <!--birthdate-->
+             <label for="bdate">Your birthday</label>
+             <input type="date" name="bdate" id="bdate">
+             <p id="errbd"></p>
+
+
+             <!--gender-->
+             <label for="gender">Your gender</label>
+             <input name = "grp1" class="gender" type="radio" value="male" id="male">Male
+             <input name = "grp1" class="gender" type="radio" value="female" id="female">Female
+             <input name = "grp1" class="gender" type="radio" value="other" id="other"> Other <br>
+             <p id="errgen"></p>
+
+
+             <!--email-->
+             <label for="email">Your email</label>
+             <input type="text" id="email" placeholder="your email">
+             <label for="email">Confirm your email</label>
+             <input type="text" id="email1" placeholder="your email">
+             <p id="erremail"></p>
+
+
+             <!--password-->
+             <label for="password">Create password</label>
+             <input type="password" id="password" placeholder="password">
+             <label for="password">Confirm your password</label>
+             <input type="password" id="password1" placeholder="password">
+             <p id="errpas"></p>
+
+
+             <!--submit-->
+
+             <input type="submit" id="submit" onclick="submitForun(event)">
+
+         </form>
+     </div>
+
+
+     <script src="regForm.js"></script>
+ </body>
+
+ </html>

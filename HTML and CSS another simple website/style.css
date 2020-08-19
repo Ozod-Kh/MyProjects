@@ -1,0 +1,128 @@
+a{
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+body{
+  background-color:#fdfff5;
+  text-align: center;
+  
+}
+
+.bottom-container{
+
+  background-color: lightskyblue;
+  padding: 30px 0 20px;
+}
+
+.title{
+   
+   
+  font-family: 'Sacramento', cursive;
+  font-size: 2rem;
+
+ 
+}
+
+h1, h2 {
+  color: #66BFBF;
+
+}
+
+h2{
+  margin-bottom: 10px;
+
+}
+
+
+h3, a {
+  color: #11999E;
+}
+
+.intro{
+  width: 30%;
+  margin: 0 auto 20px auto;
+}
+
+p{
+  line-height: 2;
+}
+
+span{
+  font-weight: normal;
+}
+
+.main-container{
+  line-height: 2;
+}
+
+
+
+.main-container{
+  position: relative;
+
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.comp{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.comp:hover{
+  background-color: mediumpurple;
+}
+
+.fin:hover{
+  background-color: mediumvioletred;
+}
+
+.fin{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+ 
+
+ .btn{
+   background-color: rgb(8, 180, 248) ;
+   color: #ffffff;
+   font-size: 20px;
+   border-radius: 8px;
+   padding: 1px;
+   margin: 1px;
+   font-family: 'Montserrat'; 
+   
+ }
+
+ .btn:hover{
+   background-color: mediumblue;
+ }
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: rgb(224, 156, 156);
+  border-width: 5px;  
+  margin: 100px auto;
+}
+
+.webskill{
+  width: 57%;
+  margin: auto;
+  
+}
+
+
+
+
